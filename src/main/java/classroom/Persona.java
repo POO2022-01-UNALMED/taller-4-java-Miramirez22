@@ -11,7 +11,7 @@ public class Persona {
     }
 
     Persona (){
-    	System.out.println("Sin nombre");
+    	this.nombre="";
     	this.cedula=0;
     }
     Persona(long cedula, String nombre) {
@@ -34,7 +34,7 @@ public class Persona {
 
     Persona(String nombre) {
         this.nombre = "";
-        this.cedula=0;
+        this.cedula=1;
         totalPersonas++;
     }
     
